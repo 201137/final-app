@@ -1,0 +1,223 @@
+ .home{
+    background-color:#ffeee6;
+    height: 100vh;
+
+ }
+
+
+ 
+
+
+ .home .layer .navbar .navbar-nav .nav-item .nav-link{
+  color: black !important;
+ }
+
+ .home .layer .navbar .navbar-nav .nav-item .nav-link.active{
+  color: chocolate !important;
+ }
+
+ .home .layer .navbar .navbar-nav .nav-item .nav-link:hover{
+  color: chocolate !important;
+ }
+
+ .home .layer .navbar .navbar-nav .nav-item {
+  transition: all 1s;
+ }
+
+ /* .home .layer .navbar .navbar-nav .nav-item:hover {
+  transform: rotate(360deg) !important;
+   
+ }  */
+
+
+.li  .nav-item .nav-link{
+color: black !important;
+ }
+
+ .par{
+margin-left: 1%;
+ }
+
+ .icon{
+margin-top: 1%;
+margin-left: 3%;
+ }
+
+ 
+
+ .demo{
+justify-content: center;
+align-items: center;
+ }
+
+.demo2{
+    position: relative;
+    animation: move 2s infinite;
+}
+
+@keyframes move{
+ 0%{
+  bottom: 15px;
+ }
+ 50%{
+    bottom: 7px;
+   }
+   100%{
+    bottom: 0px;
+   }
+}
+
+
+.Service-title::after{
+    content:'' ;
+    width: 60px;
+    height: 2px;
+    background-color: #ff8040;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    margin-top: 10px;
+}
+
+
+.label1{
+width: 300px;
+height: 50px;
+}
+
+.label2{
+width: 670px;
+ height: 50px;
+ 
+ }
+.left{
+margin-left: 25%;
+}
+
+.lp{
+margin-left: 15%;
+top: 100%;
+}
+
+.io{
+margin-left: 10%;
+}
+
+ .label3{
+
+width: 300px;
+height: 50px;
+}
+.subject{
+margin-top: 3%;
+}
+
+.textarea{
+margin-top: 3%;
+margin-left: 3%;
+}
+ 
+
+.Service{
+background-color:  #fffaf4;
+}
+ .row{
+  margin-top: 5%;
+  
+ }
+
+
+ .line::after{
+    content:'' ;
+    width: 80px ;
+    height: 6px;
+    background-color:black;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: all .5s;
+
+ }
+
+.item:hover .line::after{
+width: 70px;
+}
+
+.container5{
+   background-color: #fffaf4;
+   height: 50vh;
+}
+
+.carousel-indicators button{
+   background-color: orangered!important;
+   width: 300%;
+   height: 200%;
+   border-radius: 100%;
+   margin-top: 10%;
+   
+   } 
+.mn{
+width: 60%;
+}
+
+.ll{
+width: 85%;
+margin-left: 5%
+}
+.lm{
+ width: 85%;  
+ margin-left: 5%;
+}
+
+.kk{
+background-color:#ff6600;
+color: white;
+}
+
+.kd{
+   background-color:#ff6600;
+   color: white; 
+   margin-left: 43%;
+   margin-top: 5%;
+}
+
+.photo{
+width: 90%;
+margin-top: 5%;
+}
+.map{
+
+width: 550px;
+margin-left: 7%;
+}
+
+.contact1{
+ width: 720px;
+ height: 670px;
+ margin-left: 30%;
+
+}
+
+
+
+
+.ii{
+margin-left: 1%;
+}
+
+
+
+.oo{
+width: 90%;
+margin-left: 10%;
+margin-top: 10%;
+}
+
+
+
+
+
+
+
